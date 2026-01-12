@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     string s = "Hello";
     s[0] = 'h';
     
@@ -32,4 +32,4 @@ int main() {
     
     
     return 0;
-}
+}*/
