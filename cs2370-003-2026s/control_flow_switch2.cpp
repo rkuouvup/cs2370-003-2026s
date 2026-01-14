@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     char grade;
     cout << "Enter the grade (1 to 4): ";
     cin >> grade;
@@ -30,4 +30,4 @@ int main() {
         default: cout << "Incorrect Input" << endl;
     }
     return 0;
-}
+}*/
