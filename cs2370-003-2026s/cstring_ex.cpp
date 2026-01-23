@@ -9,7 +9,7 @@
 #include <cstring>
 using namespace std;
 
-int main() {
+/*int main() {
     string a1;
     a1 = "UVU";
     char c1[] = {'U', 'V', 'U'};
@@ -29,4 +29,4 @@ int main() {
     cout << "Compare s1 and s2: " << strcmp(s1, s2) << endl;
     
     return 0;
-}
+}*/
