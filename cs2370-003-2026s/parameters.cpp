@@ -27,7 +27,7 @@ void bar(int a[], int len) {
         a[i] = a[i] * 10;
 }
 
-int main() {
+/*int main() {
     int a[] = {1, 2, 3, 4, 5, 1, 1, 1, 1, 1};
     //cout << "sizeof(a) in main: " << sizeof(a) << endl;
     //cout << "the number of elements in a is " << (sizeof(a)/sizeof(int)) << endl;
@@ -54,5 +54,5 @@ int main() {
     
         
     return 0;
-}
+}*/
 
