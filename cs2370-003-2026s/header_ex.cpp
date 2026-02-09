@@ -8,7 +8,7 @@
 #include "mylib.h"
 using namespace std;
 
-int main() {
+/*int main() {
     cout << foo(3, 5) << endl;
     return 0;
-}
+}*/
