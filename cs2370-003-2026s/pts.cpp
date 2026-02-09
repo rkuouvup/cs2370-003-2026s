@@ -8,11 +8,7 @@
 #include "point.h"
 using namespace std;
 
-
-
-
-
-int main() {
+/*int main() {
     Point p1 = {3.0, 4.0};
     Point p2 = {0.0, 0.0};
     
@@ -22,4 +18,4 @@ int main() {
     Line l1 = {{3.0, 4.0}, {0.0, 0.0}};
     cout << "The length of l1 is " << distance(l1.start, l1.end) << endl;
     return 0;
-}
+}*/

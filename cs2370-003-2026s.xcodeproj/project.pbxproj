@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		57AD82782F0C4AF600F5FBAB /* cs2370-003-2026s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs2370-003-2026s"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AD82782F0C4AF600F5FBAB /* cs2370-003-2026s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "cs2370-003-2026s"; path = "/Users/ritakuo/Documents/cs2370/cs2370-003-2026s/build/Debug/cs2370-003-2026s"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				57AD827A2F0C4AF600F5FBAB /* cs2370-003-2026s */,
-				57AD82792F0C4AF600F5FBAB /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		57AD82792F0C4AF600F5FBAB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				57AD82782F0C4AF600F5FBAB /* cs2370-003-2026s */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +84,7 @@
 				TargetAttributes = {
 					57AD82772F0C4AF600F5FBAB = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -106,7 +98,7 @@
 			mainGroup = 57AD826F2F0C4AF600F5FBAB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 57AD82792F0C4AF600F5FBAB /* Products */;
+			productRefGroup = 57AD826F2F0C4AF600F5FBAB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -244,16 +236,21 @@
 		57AD82802F0C4AF600F5FBAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		57AD82812F0C4AF600F5FBAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
