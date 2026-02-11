@@ -9,8 +9,15 @@
 #include "restaurant.h"
 using namespace std;
 
-void Restaurant::Print() {
-    cout << name << " -- " << rating << endl;
+Restaurant::Restaurant() : name("No Name"), rating(-1), id(rand()) {
+    /*name = "No Name";
+    rating = -1;
+    id = rand();*/
+}
+
+void Restaurant::Print() const {
+    //rating = 10;
+    cout << id << ": " << name << " -- " << rating << endl;
 }
 void Restaurant::SetName(string name) {
     this->name = name;

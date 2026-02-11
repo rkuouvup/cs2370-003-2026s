@@ -11,10 +11,12 @@ using namespace std;
 
 class Restaurant {
 private:
-    string name = "No Name";
-    int rating = -1;
+    string name;
+    int rating;
+    const int id;
 public:
-    void Print();
+    Restaurant();
+    void Print() const;
     void SetName(string myName);
     void SetRating(int myRating);
     string GetName();
