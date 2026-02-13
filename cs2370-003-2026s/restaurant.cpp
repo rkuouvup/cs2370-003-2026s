@@ -9,10 +9,26 @@
 #include "restaurant.h"
 using namespace std;
 
-Restaurant::Restaurant() : name("No Name"), rating(-1), id(rand()) {
+int Restaurant::nextId = 101;
+
+int Restaurant::GetNextId() {
+    return nextId;
+}
+
+/*int Restaurant::GetId() {
+    return id;
+}*/
+
+//Restaurant::Restaurant() : name("No Name"), rating(-1), id(nextId) {
     /*name = "No Name";
     rating = -1;
     id = rand();*/
+//    nextId++;
+//}
+
+Restaurant::Restaurant(string name, int rating) :
+            name(name), rating(rating), id(nextId){
+                nextId++;
 }
 
 void Restaurant::Print() const {
