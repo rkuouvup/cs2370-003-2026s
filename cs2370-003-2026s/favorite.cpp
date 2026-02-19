@@ -12,7 +12,7 @@ using namespace std;
 
 
 
-int main() {
+/*int main() {
     //int i = 0;
     cout << Restaurant::GetNextId() << endl;
     
@@ -32,4 +32,4 @@ int main() {
     //cout << r1.name << endl;
     
     return 0;
-}
+}*/

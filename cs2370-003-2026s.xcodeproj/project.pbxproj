@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		57AD82782F0C4AF600F5FBAB /* cs2370-003-2026s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "cs2370-003-2026s"; path = "/Users/ritakuo/Documents/cs2370/cs2370-003-2026s/build/Debug/cs2370-003-2026s"; sourceTree = "<absolute>"; };
+		575AD8B42F464CA9009BB5A2 /* cs2370-003-2026s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs2370-003-2026s"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				57AD827A2F0C4AF600F5FBAB /* cs2370-003-2026s */,
+				575AD8B42F464CA9009BB5A2 /* cs2370-003-2026s */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 			packageProductDependencies = (
 			);
 			productName = "cs2370-003-2026s";
-			productReference = 57AD82782F0C4AF600F5FBAB /* cs2370-003-2026s */;
+			productReference = 575AD8B42F464CA9009BB5A2 /* cs2370-003-2026s */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
