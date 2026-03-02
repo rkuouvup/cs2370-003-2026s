@@ -15,7 +15,7 @@ public:
     void Print() const {cout << "(" << x << ", " << y << ")" << endl;}
 };
 
-int main() {
+/*int main() {
     int i = 10;
     cout << i << endl;
     
@@ -42,4 +42,4 @@ int main() {
     cout << "pPtr:\t" << pPtr << endl;
     
     return 0;
-}
+}*/
