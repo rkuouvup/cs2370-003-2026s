@@ -16,6 +16,7 @@ class LinkedListNode {
 public:
     LinkedListNode(int data = 0) : data(data), next(nullptr) {}
     int GetData() const {return data;}
+    void SetData(int data) {this->data = data;}
 private:
     int data;
     LinkedListNode *next;
