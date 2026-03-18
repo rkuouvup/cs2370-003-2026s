@@ -96,7 +96,7 @@ void LinkedList::Print() const {
     }
 }
 
-int main() {
+/*int main() {
     // Memory Leak occurred when using new operators
     
     //LinkedListNode node(1);
@@ -157,4 +157,4 @@ int main() {
     
     
     return 0;
-}
+}*/
