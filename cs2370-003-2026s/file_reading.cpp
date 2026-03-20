@@ -8,7 +8,7 @@
 #include <fstream>
 using namespace std;
 
-int main() {
+/*int main() {
     ifstream inFS;
     string s;
     
@@ -26,4 +26,4 @@ int main() {
     
     inFS.close();
     return 0;
-}
+}*/
