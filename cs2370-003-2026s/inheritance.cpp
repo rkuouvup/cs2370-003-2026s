@@ -12,6 +12,7 @@ class Business {
 public:
     void SetName(string name) {this->name = name;}
     void SetAddress(string address) {this->address = address;}
+    string GetName() const {return name;}
     string GetDescription() const {
         return name + " -- " + address;
     }
@@ -25,8 +26,12 @@ public:
     void SetRating(int rating) {this->rating = rating;}
     int GetRating() const {return rating;}
     void DisplayRestaurant() const {
-        cout << name << "--" << address << "--" << rating << endl;
+        cout << GetName() << "--" << address << "--" << rating << endl;
     }
+    string GetDescription() const {
+        return Business::GetDescription() + "\n\tRating: " + to_string(rating);
+    }
+    
 private:
     int rating;
 };
@@ -45,10 +50,10 @@ int main() {
     
     r1.SetName("Burger King");
     r1.SetAddress("University Parkway");
-    r1.DisplayRestaurant();
+    //r1.DisplayRestaurant();
     
     cout << b1.GetDescription() << endl;
-    //cout << r1.GetDescription() << endl;
+    cout << r1.GetDescription() << endl;
     
     
     
