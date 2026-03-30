@@ -18,7 +18,7 @@ public:
 };
 
 
-int main() {
+/*int main() {
     //vector<GFG> v;
     list<GFG> v;
     //v.reserve(4);
@@ -33,4 +33,4 @@ int main() {
     cout << "=======================" << endl;
     
     return 0;
-}
+}*/
