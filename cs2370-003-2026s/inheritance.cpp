@@ -52,7 +52,7 @@ void foo(int* a) {
 }
 
 
-int main() {
+/*int main() {
     //int i = 10;
     //double d = 25.8;
     //foo(&d);
@@ -82,4 +82,4 @@ int main() {
     
     
     return 0;
-}
+}*/
