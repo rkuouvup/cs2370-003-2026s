@@ -31,7 +31,7 @@ T MyPair<T>::GetMax() {
 }
 
 
-int main() {
+/*int main() {
     
     int i = 5;
     vector<int> v;
@@ -48,4 +48,4 @@ int main() {
     
     
     return 0;
-}
+}*/
