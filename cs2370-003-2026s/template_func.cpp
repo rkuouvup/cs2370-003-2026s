@@ -18,7 +18,7 @@ T TripleMin(T item1, T item2, T item3) {
     return m;
 }
 
-int main() {
+/*int main() {
     int num1 = 4, num2 = 1, num3 = 5;
     string str1 = "zzz", str2 = "aaa", str3 = "mmm";
     
@@ -30,4 +30,4 @@ int main() {
     
     
     return 0;
-}
+}*/
