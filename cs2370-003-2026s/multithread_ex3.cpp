@@ -37,7 +37,7 @@ void jane() {
 }
 
 
-int main() {
+/*int main() {
     thread t1(john);
     thread t2(jane);
     
@@ -45,4 +45,4 @@ int main() {
     t2.join();
     
     return 0;
-}
+}*/
