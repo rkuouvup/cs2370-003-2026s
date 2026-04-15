@@ -20,7 +20,7 @@ bool desc(int i, int j) {
     return i > j;
 }
 
-int main() {
+/*int main() {
     list<string> l = {"Amy", "Betty", "Cindy", "Destiny"};
     list<string>::iterator iter;
     iter = find(l.begin(), l.end(), "Zero");
@@ -65,4 +65,4 @@ int main() {
     
     
     return 0;
-}
+}*/
